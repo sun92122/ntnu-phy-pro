@@ -1,0 +1,157 @@
+:Vetores &XYXY|Vetores XYXY||Vetores XYXY|1|
+:Vetores XY&AM|Vetores XYAM||Vetores XYAM|1|
+ Linha/Símb&olo especial:&Linhas verticais gotejadas|Linhas verticais gotejadas||Linhas verticais gotejadas|1|
+ Linha/Símb&olo especial:&Suavizado|Suavizado||Suavizado|1|
+ Linha/Símb&olo especial:Espaçamentos &verticais|Espaçamentos verticais||Espaçamentos verticais|1|
+ Linha/Símb&olo especial:Escalas &horizontais|Escalas horizontais||Escalas horizontais|1|
+&Arquivo:&Novo|Novo||Novo|1|
+&Arquivo:Abrir...|Abrir||Abrir projeto|1|
+&Arquivo:P&rojetos recentes|Projetos recentes||Projetos recentes|1|
+&Arquivo:||||1|
+&Arquivo:&Abrir arquivo de imagem...|Abrir arquivo de imagem||Abrir arquivo de imagem|1|
+&Arquivo:Importar ima&gem...|Importar imagem||Importar imagem|1|
+&Arquivo:||||1|
+&Arquivo:&Salvar projeto|Salvar projeto||Salvar projeto|1|
+&Arquivo:Sal&var projeto como...|Salvar projeto como||Salvar projeto como|1|
+&Arquivo:||||1|
+&Arquivo:Abrir mode&lo...|Abrir modelo||Abrir modelo|1|
+&Arquivo:Salvar como &modelo...|Salvar como modelo||Salvar janela como modelo|1|
+&Arquivo:||||1|
+&Arquivo:&Exportar gráfico|Exportar gráfico||Exportar gráfico|1|
+&Arquivo:Im&primir...|Imprimir||Imprimir janela|1|
+&Arquivo:Imprimir &todos os gráficos...|Imprimir todos os gráficos||Imprimir todos os gráficos|1|
+&Arquivo:||||1|
+&Arquivo:E&xportar para ASCII...|Exportar para ASCII||Exportar para ASCII|1|
+&Arquivo:Importar arquivo ASCII...|Importar arquivo ASCII||Importar arquivo(s) de dados|1|
+&Arquivo:||||1|
+&Arquivo:Sa&ir|Sair||Sair|1|
+&Editar:&Desfazer|Desfazer||Desfazer mudanças|1|
+&Editar:&Refazer|Refazer||Refazer mudanças|1|
+&Editar:||||1|
+&Editar:Cor&tar seleção|Cortar seleção||Cortar seleção|1|
+&Editar:C&opiar seleção|Copiar seleção||Copiar seleção|1|
+&Editar:Co&lar seleção|Colar seleção||Colar seleção|1|
+&Editar:Excluir seleção|Excluir seleção||Excluir seleção|1|
+&Editar:||||1|
+&Editar:Excluir ta&belas de regressão|Excluir tabelas de regressão||Excluir tabelas de regressão|1|
+&Editar:Apagar &informações do registro|Apagar informações do registro||Apagar informações do registro|1|
+&Editar:||||1|
+&Editar:&Preferências...|Preferências||Preferências|1|
+&Exportar gráfico:&Atual...|Atual||Exportar gráfico atual|1|
+&Exportar gráfico:&Todos...|Todos||Exportar todos os gráficos|1|
+&Ferramentas:Desativar &ferramentas|Desativar ferramentas||Ponteiro|1|
+&Ferramentas:A&umentar zoom|Aumentar zoom||Aumentar zoom|1|
+&Ferramentas:D&iminuir zoom|Diminuir zoom||Diminuir zoom|1|
+&Ferramentas:&Reescalar para mostrar tudo|Reescalar para mostrar tudo||Melhor escala|1|
+&Ferramentas:||||1|
+&Ferramentas:Leitor de &tela|Leitor de tela||Leitor de tela|1|
+&Ferramentas:Leitor de &dados|Leitor de dados||Leitor de dados|1|
+&Ferramentas:&Selecionar faixa de dados|Selecionar faixa de dados||Selecionar faixa de dados|1|
+&Ferramentas:||||1|
+&Ferramentas:&Mover Pontos ...|Mover Pontos||Mover pontos|1|
+&Ferramentas:R&emover pontos ruins ...|Remover pontos ruins||Remover pontos|1|
+&Gráfico:&Linha|Linha||Plotar como linha|1|
+&Gráfico:&Dispersão|Dispersão||Plotar como símbolos|1|
+&Gráfico:Linha + &Símbolo|Linha + Símbolo||plotar como linha+símbolos|1|
+&Gráfico: Linha/Símb&olo especial|Linha/Símbolo especial||Linha/Símbolo especial|1|
+&Gráfico:||||1|
+&Gráfico:Barras &verticais|Barras verticais||Plotar com barras verticais|1|
+&Gráfico:Barras &horizontais|Barras horizontais||Criar gráfico de barras horizontais|1|
+&Gráfico:Á&rea|Área||Criar gráfico tipo área|1|
+&Gráfico:&Pizza|Pizza||Criar gráfico tipo pizza|1|
+&Gráfico:Vetores &XYXY|Vetores XYXY||Vetores XYXY|1|
+&Gráfico:Vetores XY&AM|Vetores XYAM||Vetores XYAM|1|
+&Gráfico:||||1|
+&Gráfico:&Gráficos estatísticos|Gráficos estatísticos||Gráficos estatísticos|1|
+&Gráfico:Pai&nel|Painel||Painel|1|
+&Gráfico:||||1|
+&Gráfico:Gráfico &3D|Gráfico 3D||Gráfico 3D|1|
+&Gráfico 3D:Es&queleto 3D|Esqueleto 3D||Esqueleto 3D|1|
+&Gráfico 3D:Linha 3D &oculta|Linha 3D oculta||Linha 3D oculta|1|
+&Gráfico 3D:&Polígonos 3D|Polígonos 3D||Polígonos 3D|1|
+&Gráfico 3D:&Superfície de fios 3D|Superfície de fios 3D||Superfície de fios 3D|1|
+&Gráfico 3D:||||1|
+&Gráfico 3D:&Barras|Barras||Gráfico barras 3D|1|
+&Gráfico 3D:&Dispersão|Dispersão||Gráfico dispersão 3D|1|
+&Gráfico 3D:||||1|
+&Gráfico 3D:Contorno + preenchimento de &cor|Contorno + preenchimento de cor||Linhas de contorno + preenchimento de cor|1|
+&Gráfico 3D:&Linhas de contorno|Linhas de contorno||Linhas de contorno|1|
+&Gráfico 3D:Escala de &cinza|Escala de cinza||Mapa de escala de cinza|1|
+&Gráficos estatísticos:Gráfico de &caixas|Gráfico de caixas||Gráfico de caixas e barbas|1|
+&Gráficos estatísticos:&Histograma|Histograma||Histograma|1|
+&Gráficos estatísticos:Hi&stograma Dispersão|Histograma Dispersão||Histograma Dispersão|1|
+&Novo:Novo &Projeto|Novo Projeto||Abrir um novo projeto|1|
+&Novo:Nova &Tabela|Nova Tabela||Nova tabela|1|
+&Novo:Nova &Matriz|Nova Matriz||Nova matriz|1|
+&Novo:Nova &nota / script|Nova nota / script||Criar uma janela de notas / script vazia|1|
+&Novo:Novo &Gráfico|Novo Gráfico||Criar um gráfico 2D vazio|1|
+&Novo:Novo gráfico de &função|Novo gráfico de função||Criar um nova gráfico 2D de função|1|
+&Novo:Nova &superfície 3D|Nova superfície 3D||Criar um novo gráfico 3D|1|
+&Suavizar:&Savitzky-Golay...|Savitzky-Golay||Savitzky-Golay|1|
+&Suavizar:Movendo &janela de média...|Movendo janela de média||Movendo janela de média|1|
+&Suavizar:Filtro FF&T...|Filtro FFT||Filtro FFT|1|
+&Ver:Barras de ferramentas|Barras de ferramentas||Barras de ferramentas|1|
+&Ver:&Lock Toolbars|Lock Toolbars||Lock Toolbars|1|
+&Ver:||||1|
+&Ver:&Assistente de gráfico|Assistente de gráfico||Assistente de gráfico|1|
+&Ver:&Navegador de projeto|Navegador de projeto||Mostrar navegador de projeto|1|
+&Ver:&Registro de resultados|Registro de resultados||Mostrar resultados das análises|1|
+&Ver:Undo/Redo &History|Undo/Redo History||Undo/Redo History|1|
+&Ver:&Console|Console||Mostrar terminal de programação|1|
+A&juda:A&juda|Ajuda||Ajuda|1|
+A&juda:||||1|
+A&juda:S&ite do SciDAVis|Site do SciDAVis||Site do SciDAVis|1|
+A&juda:||||1|
+A&juda:Visite os &fóruns do SciDAVis|Visite os fóruns do SciDAVis||Visite os fóruns do SciDAVis|1|
+A&juda:&Reportar um erro do programa|Reportar um erro do programa||Reportar um erro do programa|1|
+A&juda:||||1|
+A&juda:&Sobre o SciDAVis|Sobre o SciDAVis||Sobre o SciDAVis|1|
+A&nálise:T&rasladar|Trasladar||Trasladar|1|
+A&nálise:||||1|
+A&nálise:&Derivar|Derivar||Derivar|1|
+A&nálise:&Integrar ...|Integrar||Integrar|1|
+A&nálise:||||1|
+A&nálise:&Suavizar|Suavizar||Suavizar|1|
+A&nálise:Filtro FF&T|Filtro FFT||Filtro FFT|1|
+A&nálise:||||1|
+A&nálise:Interpolar...|Interpolar||Interpolar|1|
+A&nálise:&FFT...|FFT||FFT|1|
+A&nálise:||||1|
+A&nálise:Aj&uste rápido|Ajuste rápido||Ajuste rápido|1|
+A&nálise:Assistente de a&juste...|Assistente de ajuste||Assistente de ajuste|1|
+Aj&uste rápido:Regressão &linear|Regressão linear||Regressão linear|1|
+Aj&uste rápido:Regressão &polinomial ...|Regressão polinomial||Regressão polinomial|1|
+Aj&uste rápido:||||1|
+Aj&uste rápido:Ajuste por decaimento exponencial|Ajuste por decaimento exponencial||Ajuste por decaimento exponencial|1|
+Aj&uste rápido:Ajuste por &crescimento exponencial...|Ajuste por crescimento exponencial||Ajuste por crescimento exponencial|1|
+Aj&uste rápido:Ajuste &Boltzmann (Sigmoidal)|Ajuste Boltzmann (Sigmoidal)||Ajuste Boltzmann (Sigmoidal)|1|
+Aj&uste rápido:Ajuste &gaussiano|Ajuste gaussiano||Ajuste gaussiano|1|
+Aj&uste rápido:Ajuste loren&ziano|Ajuste lorenziano||Ajuste lorenziano|1|
+Aj&uste rápido:Ajuste de &múltiplos picos|Ajuste de múltiplos picos||Ajuste de múltiplos picos|1|
+Aj&uste rápido:||||1|
+Ajuste de &múltiplos picos:&Gaussiana...|Gaussiana||Gaussiana|1|
+Ajuste de &múltiplos picos:&Lorentziana...|Lorentziana||Lorentziana|1|
+Ajuste por decaimento exponencial:&Primeira ordem ...|Primeira ordem||Primeira ordem|1|
+Ajuste por decaimento exponencial:&Segunda ordem ...|Segunda ordem||Segunda ordem|1|
+Ajuste por decaimento exponencial:&Terceira ordem ...|Terceira ordem||Terceira ordem|1|
+Barras de ferramentas:Arquivo|Arquivo||Arquivo|1|
+Barras de ferramentas:Editar|Editar||Editar|1|
+Barras de ferramentas:Gráfico|Gráfico||Gráfico|1|
+Barras de ferramentas:Gráfico|Gráfico||Gráfico|1|
+Barras de ferramentas:Tabela|Tabela||Tabela|1|
+Barras de ferramentas:Gráfico de matriz|Gráfico de matriz||Gráfico de matriz|1|
+Barras de ferramentas:Superfície 3D|Superfície 3D||Superfície 3D|1|
+Filtro FF&T:Passa &baixa...|Passa baixa||Passa baixa|1|
+Filtro FF&T:Passa &alta...|Passa alta||Passa alta|1|
+Filtro FF&T:Passa ba&nda...|Passa banda||Passa banda|1|
+Filtro FF&T:B&loqueia banda...|Bloqueia banda||Bloqueia banda|1|
+Gráfico &3D:&Fita|Fita||Gráfico fita 3D|1|
+Gráfico &3D:&Barras|Barras||Gráfico barras 3D|1|
+Gráfico &3D:&Dispersão|Dispersão||Gráfico dispersão 3D|1|
+Gráfico &3D:&Trajetória|Trajetória||Gráfico trajetória 3D|1|
+Pai&nel:2 camadas &verticais|2 camadas verticais||2 camadas verticais|1|
+Pai&nel:2 camadas &horizontais|2 camadas horizontais||2 camadas horizontais|1|
+Pai&nel:&4 camadas|4 camadas||4 camadas|1|
+Pai&nel:&Camadas empilhadas|Camadas empilhadas||Camadas empilhadas|1|
+T&rasladar:&Vertical|Vertical||Vertical|1|
+T&rasladar:&Horizontal|Horizontal||Horizontal|1|

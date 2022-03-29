@@ -1,0 +1,132 @@
+name: CI Tests
+
+on: [pull_request,push]
+
+jobs:
+  Ubuntu:
+
+    runs-on: ubuntu-${{ matrix.os_ver }}
+
+    name: Ubuntu-${{ matrix.os_ver }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os_ver: [18.04, 20.04]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install prerequisties
+        run: |
+          sudo apt update
+          sudo apt install -y --no-install-recommends \
+            qtbase5-dev \
+            libqt5svg5-dev \
+            qttools5-dev
+
+      - name: Configuring
+        run: |
+          mkdir build && cd build
+          cmake ..
+
+      - name: Building
+        run: |
+          make -j$(nproc) -C build
+
+  MSVC:
+
+    runs-on: windows-latest
+
+    name: MSVC
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cache Qt
+        id: cache-qt
+        uses: actions/cache@v1
+        with:
+          path: ../Qt
+          key: ${{ runner.os }}-QtCache
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: 5.15.2
+          cached: ${{ steps.cache-qt.outputs.cache-hit }}
+
+      - name: Configuring
+        run: |
+          mkdir build; cd build
+          cmake ..
+
+      - name: Building
+        run: |
+          cmake --build build --config Debug -- -maxCpuCount
+
+  MinGW-w64:
+
+    runs-on: windows-latest
+
+    name: MinGW-w64
+
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install MinGW-w64 packages
+        uses: msys2/setup-msys2@v2
+        with:
+          update: true
+          install: >-
+            make
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-qt5
+
+      - name: Configuring
+        run: |
+          mkdir build && cd build
+          cmake .. -G"MSYS Makefiles"
+
+      - name: Building
+        run: |
+          make -C build -j$(nproc)
+
+  macos:
+
+    runs-on: macos-latest
+
+    name: macos
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cache Qt
+        id: cache-qt
+        uses: actions/cache@v1
+        with:
+          path: ../Qt
+          key: ${{ runner.os }}-QtCache
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          cached: ${{ steps.cache-qt.outputs.cache-hit }}
+
+      - name: Configuring
+        run: |
+          mkdir build && cd build
+          cmake ..
+
+      - name: Building
+        run: |
+          make -j$(sysctl -n hw.logicalcpu) -C build
